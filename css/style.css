@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+header {
+    background: #9f6ac283;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    height: 80px; 
+    margin-right: 20px; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+nav ul {
+    list-style: none; 
+    display: flex; 
+    gap: 20px; 
+    padding: 0; 
+    margin: 0; 
+}
+
+nav ul li {
+    margin: 0; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 20px; 
+}
+
+.btn-primary, .btn-secondary {
+    padding: 8px 16px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #6c5ce7; 
+    color: #fff; 
+    border: none;
+    font-size: 14px; 
+}
+
+.btn-primary a {
+    text-decoration: none; 
+    color: #f5f5f5; 
+}
+
+.btn-primary:hover {
+    background-color: green;
+    text-decoration: none; 
+    color: #f5f5f5; 
+}
+
+.btn-secondary {
+    background-color: transparent; 
+    color: #6c5ce7; 
+    border: 2px solid #6c5ce7; 
+}
+
+.btn-secondary:hover {
+    background-color: green; 
+    color: #ffffff; 
+    border: 2px solid #6c5ce7; 
+}
+
+.btn-secondary a {
+    text-decoration: none; 
+    color: #000; 
+}
+
+.btn-secondary a:hover {
+    text-decoration: none; 
+    color: #eceaea; 
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background: #fff;
+}
+
+.hero .content {
+    max-width: 50%;
+}
+
+.hero .highlight {
+    color: #6c5ce7;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    color: #6c5ce7;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.hero-image img {
+    height: 60%;
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 815px) {
+    nav {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    nav ul {
+        flex-direction: row; 
+        gap: 10px; 
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%; 
+        margin: 5px 0; 
+        padding: 10px; 
+    }
+
+    .hero {
+        flex-direction: column; 
+        padding: 20px; 
+        text-align: center; 
+    }
+
+    .hero-image {
+        order: 1; 
+        width: 100%; 
+    }
+
+    .hero .content {
+        order: 2; 
+        max-width: 90%;
+        margin: 0 auto; 
+    }
+
+    .hero-image img {
+        width: 100%; 
+        height: auto; 
+        border-radius: 10px; 
+    }
+
+    .socials {
+        flex-direction: row; 
+        justify-content: center; 
+        margin-top: 20px;
+    }
+
+    .socials a {
+        margin: 0 10px;
+        font-size: 24px; 
+    }
+}
+
+.socials a:hover {
+    color: green;
+}

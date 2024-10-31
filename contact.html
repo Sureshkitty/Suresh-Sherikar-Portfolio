@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Suresh Sherikar</title>
+    <link rel="icon" href="src/logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="css/contact.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('src/contact-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background-image: url('src/contact-p.jpeg');
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html" aria-label="Home"><i class="fas fa-home"></i></a></li>
+                <li><a href="about.html" aria-label="About"><i class="fas fa-user"></i></a></li>
+                <li><a href="portfolio.html" aria-label="Portfolio"><i class="fas fa-briefcase"></i></a></li>
+                <li><a href="achievements.html" aria-label="Achievements"><i class="fas fa-trophy"></i></a></li>
+                <li><a href="contact.html" class="about" aria-label="Contact"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </nav>
+        <button class="btn-primary-talk" id="letsTalk">Let's Talk</button>
+    </header>
+    
+    <main id="contact">
+        <div class="contact-container">
+            <div class="gif-container">
+                <img src="src/contact.gif" alt="Contact GIF" class="moving-gif">
+            </div>
+            
+            <h2>Contact Me</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/suresh-sherikar-320560333" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Sureshkitty" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/techie_suresh" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:suresh.sherikar1712@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Suresh Sherikar. All rights reserved.</p>
+    </footer>
+
+    <script src="js/CONTACT.js"></script>
+</body>
+</html>
