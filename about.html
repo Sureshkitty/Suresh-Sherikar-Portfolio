@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>About Me - Suresh Sherikar</title>
-    <link rel="icon" href="src/logo.jpg" type="image/jpg">
-    <link rel="stylesheet" href="css/About.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="src/logo.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="css/About.css" />
+    <!-- Upgraded Font Awesome to v6.4.0 for wider icon support -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 </head>
 <body>
     <header>
@@ -15,13 +19,13 @@
                 <li><a href="index.html" aria-label="Home"><i class="fas fa-home"></i></a></li>
                 <li><a href="about.html" class="about" aria-label="About"><i class="fas fa-user"></i></a></li>
                 <li><a href="portfolio.html" aria-label="Portfolio"><i class="fas fa-briefcase"></i></a></li>
-                <li><a href="Achievements.html" aria-label="Achievements"><i class="fas fa-trophy"></i></a></li>
+                <li><a href="achievements.html" aria-label="Achievements"><i class="fas fa-trophy"></i></a></li>
                 <li><a href="contact.html" aria-label="Contact"><i class="fas fa-envelope"></i></a></li>
             </ul>
         </nav>
         <button class="btn-primary" id="letsTalk">Let's Talk</button>
     </header>
-    
+
     <main id="about">
         <div class="about-container">
             <div class="button" id="back" aria-label="Go Back">
@@ -29,38 +33,459 @@
                     <i class="fas fa-arrow-left"></i>
                 </div>
             </div>
+
             <div class="about-content">
                 <div class="about-image">
-                    <img src="src/about-photo.jpeg" alt="Suresh Sherikar">
+                    <img src="src/about-photo.jpeg" alt="Suresh Sherikar" />
+
+                    <!-- Skills & Social Icons below image -->
+                    <div class="skills-icons">
+                        <!-- Web Development -->
+                        <div class="icon-item" title="HTML5">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="icon-item" title="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="icon-item" title="JavaScript">
+                            <i class="fab fa-js-square"></i>
+                            <span>JS</span>
+                        </div>
+                        <div class="icon-item" title="Responsive Web Design">
+                            <i class="fas fa-mobile-screen-button"></i>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="icon-item" title="React.js">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="icon-item" title="Node.js">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="icon-item" title="Git">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="icon-item" title="GitHub">
+                            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="icon-item" title="LinkedIn">
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <span>LinkedIn</span>
+                        </div>
+                        <div class="icon-item" title="UI Design">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <span>UI Design</span>
+                        </div>
+                        <div class="icon-item" title="UX Design">
+                            <i class="fas fa-object-group"></i>
+                            <span>UX Design</span>
+                        </div>
+                        <div class="icon-item" title="Cross-Browser Compatibility">
+                            <i class="fas fa-globe"></i>
+                            <span>Cross-Browser</span>
+                        </div>
+                        <div class="icon-item" title="SEO Optimization">
+                            <i class="fas fa-magnifying-glass"></i>
+                            <span>SEO</span>
+                        </div>
+
+                        <!-- Data & Office Tools -->
+                        <div class="icon-item" title="Microsoft Excel">
+                            <i class="fas fa-file-excel"></i>
+                            <span>Excel</span>
+                        </div>
+                        <div class="icon-item" title="Power BI">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="icon-item" title="Tableau">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>Tableau</span>
+                        </div>
+                        <div class="icon-item" title="SQL">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="icon-item" title="Python">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="icon-item" title="Pandas">
+                            <i class="fas fa-stream"></i>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="icon-item" title="NumPy">
+                            <i class="fas fa-superscript"></i>
+                            <span>NumPy</span>
+                        </div>
+                        <div class="icon-item" title="Matplotlib">
+                            <i class="fas fa-chart-area"></i>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="icon-item" title="Data Cleaning">
+                            <i class="fas fa-broom"></i>
+                            <span>Cleaning</span>
+                        </div>
+                        <div class="icon-item" title="Statistical Analysis">
+                            <i class="fas fa-calculator"></i>
+                            <span>Stats</span>
+                        </div>
+                        <div class="icon-item" title="A/B Testing">
+                            <i class="fas fa-vial"></i>
+                            <span>A/B Testing</span>
+                        </div>
+
+                        <!-- Arduino & Embedded -->
+                        <div class="icon-item" title="Arduino IDE">
+                            <i class="fas fa-code"></i>
+                            <span>Arduino IDE</span>
+                        </div>
+                        <div class="icon-item" title="C/C++ Programming">
+                            <i class="fas fa-terminal"></i>
+                            <span>C/C++</span>
+                        </div>
+                        <div class="icon-item" title="Sensor Integration">
+                            <i class="fas fa-thermometer-half"></i>
+                            <span>Sensors</span>
+                        </div>
+                        <div class="icon-item" title="Circuit Design">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Circuits</span>
+                        </div>
+                        <div class="icon-item" title="Real-Time Monitoring">
+                            <i class="fas fa-clock"></i>
+                            <span>Monitoring</span>
+                        </div>
+                        <div class="icon-item" title="IoT Basics">
+                            <i class="fas fa-wifi"></i>
+                            <span>IoT</span>
+                        </div>
+                        <div class="icon-item" title="Embedded Systems">
+                            <i class="fas fa-microchip"></i>
+                            <span>Embedded</span>
+                        </div>
+                        <div class="icon-item" title="Debugging">
+                            <i class="fas fa-bug"></i>
+                            <span>Debugging</span>
+                        </div>
+                        <div class="icon-item" title="Prototype Building">
+                            <i class="fas fa-tools"></i>
+                            <span>Prototype</span>
+                        </div>
+
+                        <!-- IT Support & Software -->
+                        <div class="icon-item" title="Software Installation">
+                            <i class="fas fa-download"></i>
+                            <span>Install</span>
+                        </div>
+                        <div class="icon-item" title="Troubleshooting">
+                            <i class="fas fa-tools"></i>
+                            <span>Troubleshoot</span>
+                        </div>
+                        <div class="icon-item" title="Windows Maintenance">
+                            <i class="fab fa-windows"></i>
+                            <span>Windows</span>
+                        </div>
+                        <div class="icon-item" title="Linux Maintenance">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="icon-item" title="Network Setup">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Network</span>
+                        </div>
+                        <div class="icon-item" title="MS Word">
+                            <i class="fas fa-file-word"></i>
+                            <span>Word</span>
+                        </div>
+                        <div class="icon-item" title="PowerPoint">
+                            <i class="fas fa-file-powerpoint"></i>
+                            <span>PowerPoint</span>
+                        </div>
+                        <div class="icon-item" title="Excel Management">
+                            <i class="fas fa-file-excel"></i>
+                            <span>Excel</span>
+                        </div>
+
+                        <!-- Soft Skills -->
+                        <div class="icon-item" title="Problem Solving">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Problem Solve</span>
+                        </div>
+                        <div class="icon-item" title="Critical Thinking">
+                            <i class="fas fa-brain"></i>
+                            <span>Critical Think</span>
+                        </div>
+                        <div class="icon-item" title="Analytical Thinking">
+                            <i class="fas fa-magnifying-glass-plus"></i>
+                            <span>Analytical</span>
+                        </div>
+                        <div class="icon-item" title="Adaptability">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Adaptable</span>
+                        </div>
+                        <div class="icon-item" title="Attention to Detail">
+                            <i class="fas fa-search"></i>
+                            <span>Detail</span>
+                        </div>
+                        <div class="icon-item" title="Time Management">
+                            <i class="fas fa-clock"></i>
+                            <span>Time Mgmt</span>
+                        </div>
+                        <div class="icon-item" title="Leadership">
+                            <i class="fas fa-user-tie"></i>
+                            <span>Leadership</span>
+                        </div>
+                        <div class="icon-item" title="Communication">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="icon-item" title="Teamwork">
+                            <i class="fas fa-users"></i>
+                            <span>Teamwork</span>
+                        </div>
+
+                        <!-- Additional Technology Icons -->
+                        <div class="icon-item" title="Docker">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="icon-item" title="Kubernetes">
+                            <i class="fas fa-server"></i> <!-- No official k8s icon in FA, using server as placeholder -->
+                            <span>Kubernetes</span>
+                        </div>
+                        <div class="icon-item" title="Amazon Web Services">
+                            <i class="fab fa-aws"></i> <!-- Available in FA6 -->
+                            <span>AWS</span>
+                        </div>
+                        <div class="icon-item" title="Google Cloud Platform">
+                            <i class="fab fa-google"></i> <!-- Placeholder -->
+                            <span>GCP</span>
+                        </div>
+                        <div class="icon-item" title="Microsoft Azure">
+                            <i class="fab fa-microsoft"></i> <!-- Placeholder -->
+                            <span>Azure</span>
+                        </div>
+                        <div class="icon-item" title="Java">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="icon-item" title="PHP">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="icon-item" title="Laravel">
+                            <i class="fab fa-laravel"></i>
+                            <span>Laravel</span>
+                        </div>
+                        <div class="icon-item" title="Bootstrap">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="icon-item" title="Sass">
+                            <i class="fab fa-sass"></i>
+                            <span>Sass</span>
+                        </div>
+                        <div class="icon-item" title="WordPress">
+                            <i class="fab fa-wordpress"></i>
+                            <span>WordPress</span>
+                        </div>
+                        <div class="icon-item" title="Jira">
+                            <i class="fab fa-jira"></i> <!-- Available in FA6 -->
+                            <span>Jira</span>
+                        </div>
+                        <div class="icon-item" title="Slack">
+                            <i class="fab fa-slack"></i>
+                            <span>Slack</span>
+                        </div>
+                        <div class="icon-item" title="Trello">
+                            <i class="fab fa-trello"></i>
+                            <span>Trello</span>
+                        </div>
+                        <div class="icon-item" title="NPM">
+                            <i class="fab fa-npm"></i>
+                            <span>NPM</span>
+                        </div>
+                        <div class="icon-item" title="Yarn">
+                            <i class="fab fa-yarn"></i> <!-- Available in FA6 -->
+                            <span>Yarn</span>
+                        </div>
+                        <div class="icon-item" title="Photoshop">
+                            <i class="fab fa-adobe"></i> <!-- Adobe icon for Photoshop -->
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="icon-item" title="Illustrator">
+                            <i class="fab fa-adobe"></i> <!-- Adobe icon for Illustrator -->
+                            <span>Illustrator</span>
+                        </div>
+                        <div class="icon-item" title="Figma">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="about-text">
+
+<div class="about-text">
                     <h2>About Me</h2>
-                    <p>Hi! I'm Suresh Sherikar, a B.Tech student in Mechanical Engineering with a passion for IT and software development. I specialize in front-end development and love creating engaging user interfaces using HTML, CSS, and JavaScript.</p>
-                    <p>I'm constantly learning new technologies to stay updated with the latest trends in the industry. My goal is to merge creativity with functionality to bring innovative solutions to life.</p>
+                    <p>
+                        Hi! I'm <strong>Suresh Sherikar</strong>, a B.Tech student in
+                        Mechanical Engineering with a strong passion for
+                        <strong>IT</strong>, <strong>software development</strong>, and
+                        <strong>emerging technologies</strong>. I specialize in
+                        <strong>front-end development</strong>, creating engaging user
+                        interfaces using <strong>HTML, CSS, and JavaScript</strong>.
+                    </p>
+
+                    <p>
+                        In addition to my engineering studies, I have completed a
+                        <strong>Diploma in Computer Applications (DCA)</strong>, which
+                        strengthened my foundational skills in software tools,
+                        programming, and IT systems. I also completed a course from
+                        <strong>The Open University (UK)</strong>, broadening my global
+                        perspective and technical knowledge.
+                    </p>
+
+                    <p>
+                        I bring <strong>1 year of professional experience</strong> as a
+                        <strong>Computer Operator at Balaji DTP</strong>, where I worked
+                        on:
+                    </p>
+                    <ul>
+                        <li>Report creation in MS Word</li>
+                        <li>Presentations in PowerPoint</li>
+                        <li>Excel data listing, cleaning, and analysis</li>
+                    </ul>
+
+                    <p>
+                        Beyond web development, I have a growing interest in
+                        <strong>data analysis</strong>. I use tools like
+                        <strong>Excel, SQL, and Python</strong> to extract insights,
+                        create visualizations, and support smart decision-making. I enjoy
+                        transforming raw data into meaningful stories.
+                    </p>
+
+                    <p>
+                        I’m also passionate about <strong>embedded systems and
+                        automation</strong>. With hands-on experience using
+                        <strong>Arduino</strong>, I design smart solutions integrating
+                        sensors and microcontrollers for applications like
+                        <strong>home automation</strong> and
+                        <strong>environmental monitoring</strong>.
+                    </p>
+
+                    <p>
+                        I'm continuously learning and exploring new technologies to stay
+                        current with industry trends. My goal is to blend creativity,
+                        analytical thinking, and technical skills to develop real-world
+                        solutions that create impact.
+                    </p>
+
                     <h3>Skills</h3>
+
+                    <h4>Web Development & Design</h4>
                     <ul>
                         <li>HTML, CSS, JavaScript</li>
                         <li>Responsive Web Design</li>
-                        <li>Version Control (Git)</li>
-                        <li>Installation and Configuration of Software</li>
-                        <li>Troubleshooting Hardware and Software Issues</li>
-                        <li>Problem-Solving and Critical Thinking</li>
+                        <li>Version Control (Git & GitHub)</li>
+                        <li>UI/UX Design Principles</li>
+                        <li>Cross-Browser Compatibility</li>
+                        <li>Basic SEO Optimization</li>
                     </ul>
+
+                    <h4>Data Analysis & Visualization</h4>
+                    <ul>
+                        <li>Microsoft Excel (PivotTables, Charts, Advanced Functions)</li>
+                        <li>SQL (Data Querying and Management)</li>
+                        <li>Python for Data Analysis (Pandas, NumPy, Matplotlib)</li>
+                        <li>Data Cleaning and Transformation</li>
+                        <li>Data Visualization (Power BI, Tableau, Python libraries)</li>
+                        <li>Statistical Analysis</li>
+                        <li>Basic A/B Testing</li>
+                    </ul>
+
+                    <h4>Arduino & Automation</h4>
+                    <ul>
+                        <li>Arduino IDE and C/C++ Programming</li>
+                        <li>Sensor Integration (Temperature, Motion, Light, etc.)</li>
+                        <li>Circuit Design and Wiring</li>
+                        <li>Real-Time Data Monitoring</li>
+                        <li>IoT Basics</li>
+                        <li>Embedded Systems Debugging</li>
+                        <li>Prototype Building</li>
+                    </ul>
+
+                    <h4>IT Support & Office Productivity</h4>
+                    <ul>
+                        <li>Software Installation & Configuration</li>
+                        <li>Troubleshooting (Hardware & Software)</li>
+                        <li>Windows/Linux Maintenance</li>
+                        <li>Network Setup</li>
+                        <li>MS Word Report Writing</li>
+                        <li>PowerPoint Presentation Design</li>
+                        <li>Excel Data Management</li>
+                    </ul>
+
+                    <h4>Soft Skills</h4>
+                    <ul>
+                        <li>Problem-Solving & Critical Thinking</li>
+                        <li>Analytical Thinking</li>
+                        <li>Adaptability & Continuous Learning</li>
+                        <li>Team Collaboration</li>
+                        <li>Project Planning & Time Management</li>
+                    </ul>
+
+            <h3>Work Experience</h3>
+
+<div class="work-experience">
+  <h4>Computer Operator – Balaji DTP</h4>
+  <p><strong>Duration:</strong> 1 Year</p>
+  <ul>
+    <li>Prepared professional reports and documents using MS Word</li>
+    <li>Designed effective PowerPoint presentations for various business needs</li>
+    <li>Managed and analyzed data using MS Excel – including data cleaning, formatting, and chart generation</li>
+    <li>Maintained digital records and ensured data accuracy</li>
+    <li>Supported troubleshooting and IT tasks as needed</li>
+  </ul>
+
+  <h4>Intern – Embedded Systems Projects (Freelance/Academic)</h4>
+  <p><strong>Duration:</strong> Project-Based (2023 - 2024)</p>
+  <ul>
+    <li>Developed home automation prototypes using Arduino and sensors</li>
+    <li>Built real-time environmental monitoring systems</li>
+    <li>Programmed microcontrollers using C/C++ in Arduino IDE</li>
+    <li>Tested and debugged circuits and code for optimal performance</li>
+  </ul>
+
+  <h4>Freelance Web Developer</h4>
+  <p><strong>Duration:</strong> Ongoing</p>
+  <ul>
+    <li>Designed responsive websites using HTML, CSS, JavaScript</li>
+    <li>Applied SEO best practices and cross-browser compatibility fixes</li>
+    <li>Collaborated with small businesses and individuals to create portfolio and informational websites</li>
+    <li>Used GitHub for version control and deployment</li>
+  </ul>
+</div>
+
+
                     <h3>Interests</h3>
-                    <p>Outside of coding, I enjoy exploring new technologies, participating in hackathons, and contributing to open-source projects. I also have a keen interest in machine learning and artificial intelligence.</p>
-                </div>
-            </div>
-            <div class="button" id="next" aria-label="Go Forward">
-                <div class="circle">
-                    <i class="fas fa-arrow-right"></i>
+                    <p>
+                        Outside of coding, I enjoy exploring new technologies, tinkering
+                        with embedded devices, and continuous learning to stay ahead in
+                        this ever-evolving tech landscape.
+                    </p>
                 </div>
             </div>
         </div>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Suresh Sherikar. All rights reserved.</p>
-    </footer>
-    <script src="js/about.js"></script>
 </body>
 </html>
+
