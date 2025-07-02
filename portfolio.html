@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio - Suresh Sherikar</title>
-    <link rel="icon" href="src/logo.jpg" type="image/jpg">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="src/logo.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 </head>
 <body>
     <header>
@@ -16,7 +23,7 @@
                 <li><a href="index.html" aria-label="Home"><i class="fas fa-home"></i></a></li>
                 <li><a href="about.html" aria-label="About"><i class="fas fa-user"></i></a></li>
                 <li><a href="portfolio.html" class="about" aria-label="Portfolio"><i class="fas fa-briefcase"></i></a></li>
-                <li><a href="Achievements.html" aria-label="Achievements"><i class="fas fa-trophy"></i></a></li>
+                <li><a href="achievements.html" aria-label="Achievements"><i class="fas fa-trophy"></i></a></li>
                 <li><a href="contact.html" aria-label="Contact"><i class="fas fa-envelope"></i></a></li>
             </ul>
         </nav>
@@ -30,114 +37,202 @@
                     <i class="fas fa-arrow-left"></i>
                 </div>
             </div>
+
             <h1>Suresh Sherikar's Portfolio</h1>
-            <h2>Software Projects</h2>
-            <div class="project-cards">
-                <div class="card">
-                    <h3>Web-Based IDE</h3>
-                    <img src="src/ide.jpeg" alt="Screenshot of the Web-Based IDE" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
-                    <p>Created a web-based IDE that facilitates real-time coding in HTML, CSS, and JavaScript. Implemented features such as theme switching, code resizing, and an interactive preview pane.</p>
-                    <ul>
-                        <li><strong>Technologies Used:</strong> HTML, CSS, JavaScript</li>
-                        <li><strong>Key Features:</strong>
-                            <ul>
-                                <li>Real-time coding and live preview</li>
-                                <li>Theme switching for enhanced customization</li>
-                                <li>Resizable code editor for better usability</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p>Designed with a focus on usability and accessibility for a seamless user experience.</p>
-                    <a href="https://sureshkitty.github.io/Interactive-Code-Editor-IDE/" target="_blank">View Project</a>
-                </div>
-                
-                <div class="card">
-                    <h3>DelishHub - Food Recipe Application</h3>
-                    <img src="src/recipe.jpeg" alt="Screenshot of DelishHub Application" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
-                    <p>Created a responsive web application for food enthusiasts to discover and share recipes, optimized for both mobile and desktop users.</p>
-                    <ul>
-                        <li><strong>Technologies Used:</strong> HTML, CSS, JavaScript, PHP, API</li>
-                        <li><strong>Key Features:</strong>
-                            <ul>
-                                <li>User authentication for personalized experiences</li>
-                                <li>Extensive recipe database powered by an external API</li>
-                                <li>Responsive design for seamless access on any device</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p>DelishHub aims to connect food lovers and inspire culinary creativity.</p>
-                    <a href="https://sureshkitty.github.io/DelishHub---Food-Recipe-Application/" target="_blank">View Project</a>
-                </div>
-                
 
-                <div class="card">
-                    <h3>Predicting Housing Prices Web Application</h3>
-                    <img src="src/house-price-predicytion.jpg" alt="Screenshot of Housing Prices Web Application" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
-                    <p>Developed a web application for predicting housing prices based on user inputs such as area (sqft), number of bedrooms, and bathrooms, providing price estimates for cities like Mumbai, Pune, and Bangalore.</p>
-                    <ul>
-                        <li><strong>Technologies Used:</strong> HTML, CSS, JavaScript</li>
-                        <li><strong>Key Features:</strong>
-                            <ul>
-                                <li>AI-like estimation models to dynamically calculate prices</li>
-                                <li>Responsive and intuitive user interface for optimal performance</li>
-                                <li>Feedback system that captures user input and stores it in a Google Sheet</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p>This application aims to provide users with accurate price estimations while continuously improving through user feedback.</p>
-                    <a href="https://sureshkitty.github.io/Predicting-Housing-Prices-Web-Application-with-AI-like-Estimations/" target="_blank">View Project</a>
-                </div>
-                
+            <!-- 1. Web Projects -->
+            <section id="web-projects" style="margin-bottom: 50px;">
+                <h2>Web Projects</h2>
+                <div class="project-cards" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                    <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+                        <i class="fas fa-code" style="font-size: 40px; color: #007bff; margin-bottom: 15px;"></i>
+                        <h3>Web-Based IDE</h3>
+                        <p>Real-time HTML, CSS, JavaScript coding with preview and themes.</p>
+                        <a href="https://sureshkitty.github.io/Interactive-Code-Editor-IDE/" target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
+                    <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+                        <i class="fas fa-utensils" style="font-size: 40px; color: #28a745; margin-bottom: 15px;"></i>
+                        <h3>DelishHub Recipe App</h3>
+                        <p>Responsive food recipe app with user authentication and API integration.</p>
+                        <a href="https://sureshkitty.github.io/DelishHub---Food-Recipe-Application/" target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
+                    <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+                        <i class="fas fa-home" style="font-size: 40px; color: #ffc107; margin-bottom: 15px;"></i>
+                        <h3>Housing Prices Predictor</h3>
+                        <p>Predict prices using AI-like models for Mumbai, Pune & Bangalore.</p>
+                        <a href="https://sureshkitty.github.io/Predicting-Housing-Prices-Web-Application-with-AI-like-Estimations/" target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
+                    <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+                        <i class="fas fa-cloud-sun" style="font-size: 40px; color: #dc3545; margin-bottom: 15px;"></i>
+                        <h3>ClimateCompass Weather App</h3>
+                        <p>Real-time weather app with OpenWeatherMap API and dynamic updates.</p>
+                        <a href="https://sureshkitty.github.io/ClimateCompass-Weather-App-/" target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
+                    <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-calculator" style="font-size: 40px; color: #28a745; margin-bottom: 15px;"></i>
+    <h3>Canteen Billing System</h3>
+    <p>An efficient billing system for canteen management with itemized bills and reports.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-laptop-code" style="font-size: 40px; color: #17a2b8; margin-bottom: 15px;"></i>
+    <h3>Online Examination System</h3>
+    <p>Platform for online exams with automatic correction and mark sheet generation.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-qrcode" style="font-size: 40px; color: #28a745; margin-bottom: 15px;"></i>
+    <h3>QR Code Attendance Management</h3>
+    <p>Efficient attendance tracking using QR codes scanned via mobile devices.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
 
-                <div class="card">
-                    <h3>ClimateCompass - Weather Application</h3>
-                    <img src="src/weather.png" alt="Screenshot of ClimateCompass Application" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
-                    <p>ClimateCompass is a weather application designed for real-time weather data retrieval, featuring a responsive design and dynamic updates.</p>
-                    <ul>
-                        <li><strong>Technologies Used:</strong> HTML5, CSS3, JavaScript, OpenWeatherMap API</li>
-                        <li><strong>Key Features:</strong>
-                            <ul>
-                                <li>Real-time weather data retrieval for accurate updates</li>
-                                <li>Responsive design ensuring usability across devices</li>
-                                <li>Dynamic updates utilizing API integration</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <p>As a web developer with expertise in HTML, CSS, and JavaScript, I am passionate about building responsive, user-friendly applications.</p>
-                    <a href="https://sureshkitty.github.io/ClimateCompass-Weather-App-/" target="_blank">View Project</a>
                 </div>
-            <!-- 
-            <h2>IoT Projects</h2>
-            <div class="project-cards">
-                <div class="card">
-                    <h3>IoT Project 1</h3>
-                    <p>A brief description of IoT Project 1 goes here.</p>
-                    <a href="#" target="_blank">View Project</a>
-                </div>
-                <div class="card">
-                    <h3>IoT Project 2</h3>
-                    <p>A brief description of IoT Project 2 goes here.</p>
-                    <a href="#" target="_blank">View Project</a>
-                </div>
-            </div>
+            </section>
 
-            <h2>Mechanical Projects</h2>
-            <div class="project-cards">
-                <div class="card">
-                    <h3>Mechanical Project 1</h3>
-                    <p>A brief description of Mechanical Project 1 goes here.</p>
-                    <a href="#" target="_blank">View Project</a>
+            <!-- 2. Data Analyst Projects -->
+<section id="data-analyst-projects" style="margin-bottom: 50px;">
+    <h2>Data Analyst Projects</h2>
+    <div class="project-cards" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+
+        <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+            <i class="fas fa-store" style="font-size: 40px; color: #007bff; margin-bottom: 15px;"></i>
+            <h3>Sales Performance Analysis</h3>
+            <p>Analyzed daily and monthly sales data for a retail chain to identify growth opportunities.</p>
+            <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+            <i class="fas fa-users" style="font-size: 40px; color: #28a745; margin-bottom: 15px;"></i>
+            <h3>Customer Segmentation</h3>
+            <p>Used clustering techniques to segment customers based on purchase behavior and demographics.</p>
+            <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+            <i class="fas fa-shopping-cart" style="font-size: 40px; color: #ffc107; margin-bottom: 15px;"></i>
+            <h3>Market Basket Analysis</h3>
+            <p>Discovered product purchase patterns to optimize cross-selling and promotions strategies.</p>
+            <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+            <i class="fas fa-comments" style="font-size: 40px; color: #dc3545; margin-bottom: 15px;"></i>
+            <h3>Sentiment Analysis on Customer Reviews</h3>
+            <p>Analyzed customer feedback from social media and reviews to improve product satisfaction.</p>
+            <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+            <!-- 3. IoT Arduino Automation Projects -->
+            <section id="iot-projects" style="margin-bottom: 50px;">
+                <h2>IoT Arduino Automation Projects</h2>
+                <div class="project-cards" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                  <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-exclamation-triangle" style="font-size: 40px; color: #e74c3c; margin-bottom: 15px;"></i>
+    <h3>Automatic Accident Detection</h3>
+    <p>Detects accidents automatically using Arduino Nano with IR sensors and servo motor for emergency response.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-fire-extinguisher" style="font-size: 40px; color: #e67e22; margin-bottom: 15px;"></i>
+    <h3>Fire Extinguisher System</h3>
+    <p>Automatic fire extinguisher using sensors and Arduino to detect and suppress fire hazards efficiently.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-robot" style="font-size: 40px; color: #3498db; margin-bottom: 15px;"></i>
+    <h3>Conveyor Belt and Robotic Arm</h3>
+    <p>Automated conveyor system integrated with a robotic arm for efficient material handling and assembly tasks.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-tint" style="font-size: 40px; color: #00aaff; margin-bottom: 15px;"></i>
+    <h3>Smart Water Drinking & Filling System</h3>
+    <p>Automated water dispenser using IR sensor and Arduino to detect user presence and control water motor for efficient filling.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-satellite-dish" style="font-size: 40px; color: #2ecc71; margin-bottom: 15px;"></i>
+    <h3>Radar Detection System</h3>
+    <p>Radar system using Arduino, ultrasonic sensor, and servo motor to detect and display object distance and angle on screen.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+
+                    <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-door-open" style="font-size: 40px; color: #ff6600; margin-bottom: 15px;"></i>
+    <h3>Automatic Sliding Door</h3>
+    <p>3D printed sliding door controlled by Arduino with servo motor and ultrasonic sensor for automatic operation.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
                 </div>
-                <div class="card">
-                    <h3>Mechanical Project 2</h3>
-                    <p>A brief description of Mechanical Project 2 goes here.</p>
-                    <a href="#" target="_blank">View Project</a>
+            </section>
+
+            <!-- 4. CAD Design Projects -->
+            <section id="cad-projects" style="margin-bottom: 50px;">
+                <h2>CAD Design Projects</h2>
+                <div class="project-cards" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                   <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-door-open" style="font-size: 40px; color: #ff6600; margin-bottom: 15px;"></i>
+    <h3>Automatic Sliding Door</h3>
+    <p>3D printed sliding door controlled by Arduino with servo motor and ultrasonic sensor for automatic operation.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-home" style="font-size: 40px; color: #e67e22; margin-bottom: 15px;"></i>
+    <h3>Šumperák House 3D Design</h3>
+    <p>Architectural 3D model of the iconic Šumperák house, designed using CAD software to reflect mid-century Czech residential style.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-cogs" style="font-size: 40px; color: #34495e; margin-bottom: 15px;"></i>
+    <h3>V8 Engine 3D CAD Design</h3>
+    <p>Highly detailed 3D model of a V8 internal combustion engine showcasing pistons, crankshaft, and valve timing system. Designed using professional CAD tools.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-industry" style="font-size: 40px; color: #27ae60; margin-bottom: 15px;"></i>
+    <h3>CNC Machine 3D CAD Design</h3>
+    <p>3D CAD model of a CNC milling machine with detailed linear motion systems, spindle assembly, and machine frame—designed for simulation and prototyping.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+<div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <i class="fas fa-print" style="font-size: 40px; color: #8e44ad; margin-bottom: 15px;"></i>
+    <h3>3D Printer CAD Design</h3>
+    <p>Complete 3D CAD model of an FDM 3D printer, including frame, extruder, heated bed, and motion components—designed for prototyping and DIY builds.</p>
+    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+</div>
+
+                    <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+                        <i class="fas fa-drafting-compass" style="font-size: 40px; color: #28a745; margin-bottom: 15px;"></i>
+                        <h3>Architectural CAD Drawings</h3>
+                        <p>Precise 2D and 3D architectural CAD designs.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
+                    <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+                        <i class="fas fa-industry" style="font-size: 40px; color: #ffc107; margin-bottom: 15px;"></i>
+                        <h3>Industrial Equipment Modeling</h3>
+                        <p>CAD models for industrial machinery components.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
+                    <div class="card" style="flex: 1 1 220px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+                        <i class="fas fa-robot" style="font-size: 40px; color: #dc3545; margin-bottom: 15px;"></i>
+                        <h3>Robotics CAD Design</h3>
+                        <p>Designing robotic components using CAD software.</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                    </div>
                 </div>
-            </div>  -->    
-        </div> 
-        <div class="button" id="next" aria-label="Go Forward">
-            <div class="circle">
-                <i class="fas fa-arrow-right"></i>
+            </section>
+
+            <div class="button" id="next" aria-label="Go Forward">
+                <div class="circle">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
             </div>
         </div>
     </main>
