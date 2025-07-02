@@ -175,3 +175,86 @@ nav ul li a {
 .socials a:hover {
     color: green;
 }
+
+#work-experience {
+  background: #fff;
+  padding: 40px 50px;
+  margin: 40px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(108, 92, 231, 0.15);
+}
+
+#work-experience h2 {
+  color: #6c5ce7;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.job-card {
+  background: #f9f9ff;
+  border-left: 5px solid #6c5ce7;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  transition: box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.job-card:hover {
+  box-shadow: 0 12px 25px rgba(108, 92, 231, 0.3);
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.job-icon {
+  color: #6c5ce7;
+  font-size: 1.8rem;
+}
+
+.job-card h3 {
+  margin: 0;
+  font-weight: 700;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.job-card h3 span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #888;
+  margin-left: 8px;
+}
+
+.job-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  color: #555;
+}
+
+.job-card ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.job-card ul li i {
+  color: #6c5ce7;
+}
+
+.job-card p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0;
+  line-height: 1.5;
+}
