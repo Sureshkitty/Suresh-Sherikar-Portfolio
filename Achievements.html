@@ -1,64 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Achievements - Suresh Sherikar</title>
-    <link rel="icon" href="src/logo.jpg" type="image/jpg">
-    <link rel="stylesheet" href="css/achievements.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Achievements - Suresh Sherikar</title>
+  <link rel="icon" href="src/logo.jpg" type="image/jpg"/>
+  <link rel="stylesheet" href="css/achievements.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="index.html" aria-label="Home"><i class="fas fa-home"></i></a></li>
-                <li><a href="about.html" aria-label="About"><i class="fas fa-user"></i></a></li>
-                <li><a href="portfolio.html" aria-label="Portfolio"><i class="fas fa-briefcase"></i></a></li>
-                <li><a href="achievements.html" class="active" aria-label="Achievements"><i class="fas fa-trophy"></i></a></li>
-                <li><a href="contact.html" aria-label="Contact"><i class="fas fa-envelope"></i></a></li>
-            </ul>
-        </nav>
-        <button class="btn-primary" id="letsTalk">Let's Talk</button>
-    </header>
 
-    <section id="achievements">
-        <div class="achievements-container">
-            <div class="button" id="back" aria-label="Go Back">
-                <div class="circle">
-                    <i class="fas fa-arrow-left"></i>
-                </div>
-            </div>
-            <h2>My Achievements</h2>
-            <div class="achievement-cards">
-                <div class="card">
-                    <img src="src/open-oniversity.png" alt="Achievement 1" class="achievement-image">
-                    <h3>An Introduction to Web Applications Architecture</h3>
-                    <p>Issued by The Open University, United Kingdom</p>
-                    <p>Completed a certification course on HTML, CSS, and JavaScript.</p>
-                    <a class="btn-view-certificate" href="https://www.open.edu/openlearn/profiles/zs299611/achievements" target="_blank">View Certificate</a>
-                </div>
-                <div class="card">
-                    <img src="src/ohsc.jpeg" alt="Achievement 2" class="achievement-image">
-                    <h3>Microsoft Office Certification</h3>
-                    <p>Issued by Oxford Home Study</p>
-                    <p>Achieved proficiency in Microsoft Office tools like Word, Excel, and PowerPoint.</p>
-                    <a class="btn-view-certificate" href="https://drive.google.com/file/d/15uHDCwlJwRrQAPvr0WRHRFN-LNVaeZry/view?usp=sharing" target="_blank">View Certificate</a>
-                </div>
-            </div>
-        </div>
-        <div class="button" id="next" aria-label="Next">
-            <div class="circle">
-                <i class="fas fa-arrow-right"></i>
-            </div>
-        </div>
-    </section>
+<header>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="index.html" aria-label="Home"><i class="fas fa-home"></i></a></li>
+      <li><a href="about.html" aria-label="About"><i class="fas fa-user"></i></a></li>
+      <li><a href="portfolio.html" aria-label="Portfolio"><i class="fas fa-briefcase"></i></a></li>
+      <li><a href="achievements.html" class="active" aria-label="Achievements"><i class="fas fa-trophy"></i></a></li>
+      <li><a href="contact.html" aria-label="Contact"><i class="fas fa-envelope"></i></a></li>
+    </ul>
+  </nav>
+  <button class="btn-primary" id="letsTalk">Let's Talk</button>
+</header>
 
-    <footer>
-        <p>&copy; 2024 Suresh Sherikar. All rights reserved.</p>
-    </footer>
+<section id="achievements">
+  <div class="achievements-container">
+    <div class="button" id="back" aria-label="Go Back">
+      <div class="circle"><i class="fas fa-arrow-left"></i></div>
+    </div>
+    <h2>My Achievements</h2>
+    <div class="achievement-cards">
 
-    <script src="js/Achievements.js"></script>
+      <!-- Example card -->
+      <div class="card">
+        <img src="src/open-oniversity.png" alt="OU" class="achievement-image">
+        <h3>An Introduction to Software Development</h3>
+        <p>Issued by The Open University, UK</p>
+        <p>Covered the software development lifecycle, testing, and requirements gathering.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/software-development.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/open-oniversity.png" alt="OU" class="achievement-image">
+        <h3>Successful IT Systems</h3>
+        <p>Issued by The Open University, UK</p>
+        <p>Learned how to design, evaluate, and implement IT systems effectively.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/it.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/open-oniversity.png" alt="OU" class="achievement-image">
+        <h3>An Introduction to Computers and Fundamental Systems</h3>
+        <p>Issued by The Open University, UK</p>
+        <p>Explored hardware, operating systems, and fundamental computer concepts.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/computer-science.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/open-oniversity.png" alt="OU" class="achievement-image">
+        <h3>An Introduction to Web Applications Architecture</h3>
+        <p>Issued by The Open University, UK</p>
+        <p>Learned structure and technologies behind client-server web applications.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/web.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/open-oniversity.png" alt="OU" class="achievement-image">
+        <h3>Data Analysis and Visualisation in Excel</h3>
+        <p>Issued by The Open University, UK</p>
+        <p>Covered Excel functions, pivot tables, charts, and data visualization techniques.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/data-excel.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/open-oniversity.png" alt="OU" class="achievement-image">
+        <h3>Network Security</h3>
+        <p>Issued by The Open University, UK</p>
+        <p>Learned principles of securing data, protocols, and defenses against cyber threats.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/network-security.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/open-oniversity.png" alt="OU" class="achievement-image">
+        <h3>An Introduction to Electronics</h3>
+        <p>Issued by The Open University, UK</p>
+        <p>Studied basic electronic components, circuits, and applications.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/electronic.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/open-oniversity.png" alt="OU" class="achievement-image">
+        <h3>Introduction to Cybersecurity</h3>
+        <p>Issued by The Open University, UK</p>
+        <p>Covered the basics of cyber risks, threat protection, and online safety.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/simple-coding.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+  <img src="src/skill-nation.png" alt="Skill Nation" class="achievement-image">
+  <h3>Basic to Advanced SQL</h3>
+  <p>Issued by Skill Nation</p>
+  <p>Developed key SEL skills such as collaboration, responsible decision-making, and self-awareness while working through real-world SQL data problems.</p>
+  <a class="btn-view-certificate" href="#" data-img="certificates/sql.jpg">View Certificate</a>
+</div>
+
+
+      <div class="card">
+        <img src="src/skill-nation.png" alt="PowerPoint" class="achievement-image">
+        <h3>Basic to Advanced PowerPoint</h3>
+        <p>Issued by Skill Nation</p>
+        <p>Mastered slide design, transitions, animations, and storytelling with presentations.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/powerpoint.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/skill-nation.png" alt="Excel" class="achievement-image">
+        <h3>Basic to Advanced Excel</h3>
+        <p>Issued by Skill Nation</p>
+        <p>Learned formulas, pivot tables, data analysis, and Excel automation tools.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/wxcel.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/skill-nation.png" alt="Power BI" class="achievement-image">
+        <h3>Basic to Advanced Power BI</h3>
+        <p>Issued by Skill Nation</p>
+        <p>Built dashboards, reports, and visualized data using Power BI features.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/powerbi.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/skill-nation.png" alt="Tableau" class="achievement-image">
+        <h3>Basic to Advanced Tableau</h3>
+        <p>Issued by Skill Nation</p>
+        <p>Created interactive dashboards and charts using Tableau for real-world datasets.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/tablu.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/university-of-leeds.png" alt="An Introduction to Programming Using Python" class="achievement-image"/>
+        <h3>An Introduction to Programming Using Python</h3>
+        <p>Issued by University of Leeds</p>
+        <p>Learned Python programming basics and problem-solving skills.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/python.jpg">View Certificate</a>
+      </div>
+
+      <div class="card">
+        <img src="src/grow ai.jpeg" alt="GrowAI Data Analysis Training Certificate" class="achievement-image" />
+        <h3>GrowAI Data Analysis Training Certificate</h3>
+        <p>Issued by GrowAI</p>
+        <p>Completed comprehensive data analysis training with hands-on projects.</p>
+        <a class="btn-view-certificate" href="#" data-img="certificates/INTERSHIP.jpg">View Certificate</a>
+      </div>
+
+    </div>
+  </div>
+  <div class="button" id="next" aria-label="Next">
+    <div class="circle"><i class="fas fa-arrow-right"></i></div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 Suresh Sherikar. All rights reserved.</p>
+</footer>
+
+<script src="js/Achievements.js"></script>
 </body>
 </html>
